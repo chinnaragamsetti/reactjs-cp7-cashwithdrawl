@@ -9,9 +9,11 @@ const DenominationItem = props => {
     decreasetotalamount(value)
   }
   return (
-    <button type="button" onClick={Decrease} className="button">
-      {value}
-    </button>
+    <li>
+      <button type="button" onClick={Decrease} className="button">
+        {value}
+      </button>
+    </li>
   )
 }
 
